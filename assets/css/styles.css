@@ -1,0 +1,94 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('../img/Maple-leaf-water-drops_2560x1600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.header{
+    text-align: center;
+}
+
+.title{
+    font-style: italic;
+    font-size: 40px;
+    color: rgba(220,87,42,255);
+}
+
+.container{
+    text-align: center;
+}
+
+#city{
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: bisque;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#btnQuery{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgba(220,87,42,255);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#weatherInfo{
+    background-color: rgba(7, 4, 51, 0.9);
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 10px;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    display: none;
+}
+
+.description{
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    color: rgb(3, 3, 51);
+    font-size: 18px;
+}
+
+.enlace{
+    color: white;
+}
+.temp{
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
