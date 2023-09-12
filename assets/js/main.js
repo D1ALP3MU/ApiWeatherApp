@@ -25,7 +25,7 @@ async function fecthWeatherTwo() {
         weatherInfo.innerHTML = 
         `<p class="temp">The temperature in ${name} is: ${temp}°C</p>
         <img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="system icon">
-        <p class="description"><strong>Feels like:</strong> ${feels_like}</p>
+        <p class="description"><strong>Feels like:</strong> ${feels_like}°C</p>
         <p class="description"><strong>Humidity:</strong> ${humidity}%</p>
         <p class="description"><strong>Speed:</strong> ${speed}m/s</p>
         <p class="description"><strong>Description:</strong> ${description}</p>
